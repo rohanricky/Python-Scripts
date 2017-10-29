@@ -7,7 +7,11 @@ from selenium.common.exceptions import NoSuchElementException
 
 baseurl = "https://www.chess.com"
 username = "xxxxx"#type your user name here
+<<<<<<< HEAD
 pas = "qwerty"#type your pass word
+=======
+pas = "qwerty"#type your pass word
+>>>>>>> 03ce702b8b737fd4201504f1c00482896e05ed55
 
 xpaths = {
 'username' : "//input[@name='loginusername']",
