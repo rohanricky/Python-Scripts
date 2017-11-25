@@ -28,11 +28,7 @@ class MyCommandInterpreter(Cmd):
 	def do_whatsapp(self,s):
 		url = "https://web.whatsapp.com/"
 		webbrowser.open_new_tab(url)
-
-
-offo = MyCommandInterpreter()
-offo.cmdloop()
-
+		
 	def help_add(self):
 		print("I've done it")
 
